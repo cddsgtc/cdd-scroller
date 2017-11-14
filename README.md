@@ -14,7 +14,7 @@ tags: scroller
 4. 集成节流阀，可设置频率，提高性能。
 
 ## 用法
-
+```
 scroller({
     fElement:dom<obj>,
     threshold?:<number>,
@@ -25,6 +25,7 @@ scroller({
     modal?:'debounce'/'throttle'<string>,
     frequency?:250<number>
 })
+```
 
 往 scroller中添加一个对象即可
 
