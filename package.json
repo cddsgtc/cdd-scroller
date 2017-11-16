@@ -1,6 +1,6 @@
 {
   "name": "cdd-scroller",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "main": "dist/scroller.cjs.js",
   "module": "dist/scroller.esm.js",
   "browser": "dist/scroller.umd.js",
@@ -25,6 +25,10 @@
     "dev": "rollup -c -w",
     "test": "node test/test.js",
     "pretest": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cddsgtc/cdd-scroller"
   },
   "files": [
     "dist"

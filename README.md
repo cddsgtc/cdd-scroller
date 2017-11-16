@@ -63,7 +63,6 @@ scroller({
 <body>
 
   <div class="f">
-
     <div class="s">
       <p>项目_1</p>
       <p>项目_2</p>
@@ -75,14 +74,13 @@ scroller({
       <p>项目_8</p>
       <p>项目_9</p>
       <p>项目_10</p>
-
     </div>
   </div>
 
   <script src="../dist/scroller.umd.js"></script>
   <script>
     var f = document.querySelector('.f')
-    let fun = {
+    var fun = {
       arrived: function () {
         console.log(`到了`)
       },
@@ -90,7 +88,7 @@ scroller({
         console.log(`离开了`)
       }
     }
-    let config1 = {
+    var config1 = {
       fElement: f,
       modal: 'throttle',
       frequency: '250',
